@@ -1,0 +1,70 @@
+#backgrounddiv {
+	text-align: center;
+	background: url("topBack.JPG");
+    z-index:0;
+    height: 200vh;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+#scrolling {
+	position:relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    background-color : #FFFFFF;
+}
+div.transparent {
+  height:100vh;
+  width: 100%;
+  background-color : transparent;
+}
+#toptext {
+	vertical-align: middle;
+    margin-top:25vh;
+}
+#topname {
+	color: #FFFFFF;
+}
+#profile {
+  width: 855px;
+  background-color : #FFFFFF;
+  text-align: left;
+}
+p.topDividers {
+ display : inline;
+ color: #FFFFFF;
+}
+a.toplinks {
+ display : inline;
+ font-weight: bold;
+ color: #FFFFFF;
+}
+h1.myheaders {
+ text-align: center;
+ color: #4C678C;
+}
+hr.mydividers {
+ width:75%;
+ background-color: #4C678C;
+ height: 2px;
+ size:4;
+}
+p.aboutparagraphheaders {
+ text-align: left;
+ color: #2C4770;
+}
+p.aboutparagraphs {
+ text-align: left;
+}
+#bottom {
+  text-align: center;
+  background-image: url(topBack.jpg);
+  height:100vh;
+}
+#bottomtext {
+	vertical-align: middle;
+    margin-top:25vh;
+}
