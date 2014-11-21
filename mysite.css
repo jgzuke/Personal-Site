@@ -1,6 +1,7 @@
 #backgrounddiv {
 	text-align: center;
-	background: url("topBack.JPG");
+	/*background: url("topBack.JPG");*/
+	background-color : #3975A3;
     z-index:0;
     height: 200vh;
     width: 100%;
@@ -21,44 +22,67 @@ div.transparent {
   width: 100%;
   background-color : transparent;
 }
+
+
 #toptext {
 	vertical-align: middle;
     margin-top:25vh;
 }
 #topname {
 	color: #FFFFFF;
-}
-#profile {
-  width: 855px;
-  background-color : #FFFFFF;
-  text-align: left;
+	font-size: 500%;
 }
 p.topDividers {
  display : inline;
+ font-size: 175%;
  color: #FFFFFF;
 }
 a.toplinks {
  display : inline;
  font-weight: bold;
+ font-size: 175%;
  color: #FFFFFF;
 }
+
+
+#profile {
+  width: 85%;
+  background-color : #FFFFFF;
+  text-align: left;
+}
+
+
 h1.myheaders {
  text-align: center;
- color: #4C678C;
+ font-size: 400%;
+ font-style: normal;
+ color: #3975A3;
+ margin-top:50px;
 }
 hr.mydividers {
- width:75%;
- background-color: #4C678C;
+ width:85%;
+ background-color: #3975A3;
  height: 2px;
+ margin-top:40px;
  size:4;
 }
-p.aboutparagraphheaders {
+
+
+h3.paragraphheaders {
+	text-indent: 20px;
  text-align: left;
- color: #2C4770;
+ color: #294F6D;
 }
-p.aboutparagraphs {
+#myimage {
+ width:250px;
+ height:250px;
+ margin-top:40px;
+}
+p.paragraphs {
  text-align: left;
 }
+
+
 #bottom {
   text-align: center;
   background-image: url(topBack.jpg);
