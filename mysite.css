@@ -1,6 +1,5 @@
 #backgrounddiv {
 	/*background: url("topBack.JPG");*/
-	background-color : #3975A3;
     width: 100%;
     z-index:0;
     position:fixed;
@@ -9,18 +8,21 @@
     z-index: 0;
 }
 #backgrounddivtop {
+	width:100%;
 	text-align: center;
-	/*background: url("topBack.JPG");*/
+	background-image: url("math.png");
+	background-position: left top;
     height: 100vh;
 }
 #backgrounddivmid {
 	text-align: center;
 	/*background: url("topBack.JPG");*/
-    height: 85vh; /*height will be ((scrolling height)-100)/2 */
+    height: 100vh; /*height will be ((scrolling height)-100)/2 */
 }
 #backgrounddivbottom {
+	width:100%;
 	text-align: center;
-	/*background: url("topBack.JPG");*/
+	background-image: url("binary.png");
     height: 100vh;
 }
 #scrolling {
@@ -41,6 +43,14 @@ div.transparent {
     margin-top:25vh;
 }
 #topname {
+	color: #FFFFFF;
+	font-size: 500%;
+}
+#bottext {
+	vertical-align: middle;
+    margin-top:25vh;
+}
+#botname {
 	color: #FFFFFF;
 	font-size: 500%;
 }
@@ -100,15 +110,4 @@ p.paragraphs {
 	margin-top:40px;
 	text-align: center;
 	font-style: italic;
-}
-
-
-#bottom {
-  text-align: center;
-  background-image: url(topBack.jpg);
-  height:100vh;
-}
-#bottomtext {
-	vertical-align: middle;
-    margin-top:25vh;
 }
