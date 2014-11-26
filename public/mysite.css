@@ -32,6 +32,13 @@
     background-color : #FFFFFF;
     z-index: 10;
 }
+#prevpage {
+	position:fixed;
+    bottom: 81px;
+    right: 15px;
+    background-color : #FFFFFF;
+    z-index: 10;
+}
 #scrolling {
 	position:relative;
     height:300vh;
