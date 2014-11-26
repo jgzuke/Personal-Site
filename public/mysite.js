@@ -9,11 +9,28 @@ function parallaxScroll()
 }
 $('#nextpage').click(function()
 {
-
-    $('html, body').animate({scrollTop: $('#scrolling').offset().top}, 'slow');
+	if($(window).scrollTop()< $("#profileWithHeader").offset().top)
+	{
+		$('html, body').animate({scrollTop: $('#profileWithHeader').offset().top}, 'slow');
+	} else if($(window).scrollTop()< $("#projectsWithHeader").offset().top )
+	{
+		$('html, body').animate({scrollTop: $('#projectsWithHeader').offset().top}, 'slow');
+	} else
+	{
+		$('html, body').animate({scrollTop: $('#botTrans').offset().top}, 'slow');
+	}
+    
 });
 $('#prevpage').click(function()
 {
-	
-    $('html, body').animate({scrollTop: $('#scrolling').offset().top}, 'slow');
+	if($(window).scrollTop()> $("#projectsWithHeader").offset().top)
+	{
+		$('html, body').animate({scrollTop: $('#projectsWithHeader').offset().top}, 'slow');
+	} else if($(window).scrollTop()> $("#profileWithHeader").offset().top )
+	{
+		$('html, body').animate({scrollTop: $('#profileWithHeader').offset().top}, 'slow');
+	} else
+	{
+		$('html, body').animate({scrollTop: $('#topTrans').offset().top}, 'slow');
+	}
 });
