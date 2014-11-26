@@ -15,8 +15,25 @@
 
     }
   </style>
-  <body data-spy="scroll" data-target="#navbar-example">   
-    
+  <body>   
+    <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand" href="#topTrans">Jason Zukewich</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="page-scroll">
+                        <a href="#aboutHeader">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projectsHeader">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#botTrans">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
     <div id="backgrounddiv">
       <div id="backgrounddivtop" class="container">
         <div id="toptext" class="container">
@@ -39,10 +56,10 @@
       </div>
     </div>
 
-    <div class="transparent"></div>
+    <div class="transparent" id="topTrans"></div>
     <div id="scrolling" class="container">
 
-      <h1 class="myheaders">My Story</h1>
+      <h1 class="myheaders" id="aboutHeader">My Story</h1>
       <hr class="mydividers"></hr>
       <div id="profile" class="container">
           <div class="row">
@@ -81,7 +98,7 @@
           <p id="findoutmore" text-align="center">For more information check out my <a href="https://github.com/jgzuke"> Github </a> and <a href="https://ca.linkedin.com/in/jzukewich/"> LinkedIn </a>, or email me at jzukewic@uwaterloo.ca</p> <!--section on left of picture-->
       </div>  
 
-      <h1 class="myheaders">Projects</h1>
+      <h1 class="myheaders" id="projectsHeader">Projects</h1>
       <HR class="mydividers"></HR>
       <div id="projects" class="container">
 
@@ -89,7 +106,7 @@
 
       </div>
     </div>
-    <div class="transparent"></div>
+    <div class="transparent" id="botTrans"></div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

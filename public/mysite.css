@@ -25,11 +25,21 @@
 	background-image: url("binary.png");
     height: 100vh;
 }
+#nextpage {
+	position:fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color : #FFFFFF;
+    z-index: 10;
+}
 #scrolling {
 	position:relative;
     height:300vh;
     width:100%;
     background-color : #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #000;
+    -moz-box-shadow: 0px 0px 20px 0px #000;
+	-webkit-box-shadow: 0px 0px 20px 0px #000;
 }
 div.transparent {
   height:100vh;
