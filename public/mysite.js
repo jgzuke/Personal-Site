@@ -79,21 +79,6 @@ $('#button-next1').click(function()
 	$('.project1slide').fadeOut();
 	$('.active1').fadeIn();
 });
-$('#button-previous1').click(function()
-{
-	$('.active1').removeClass('active1').addClass('oldActive');
-	if ($('.oldActive').is(':first-child'))
-	{
-		$('.project1slide').last().addClass('active1');
-	}
-	else
-	{
-		$('.oldActive').prev().addClass('active1');
-	}
-	$('.oldActive').removeClass('oldActive');
-	$('.project1slide').fadeOut();
-	$('.active1').fadeIn();
-});
 $('#button-next2').click(function()
 {
 	$('.active2').removeClass('active2').addClass('oldActive');
@@ -103,21 +88,6 @@ $('#button-next2').click(function()
 	} else
 	{
 		$('.oldActive').next().addClass('active2');
-	}
-	$('.oldActive').removeClass('oldActive');
-	$('.project2slide').fadeOut();
-	$('.active2').fadeIn();
-});
-$('#button-previous2').click(function()
-{
-	$('.active2').removeClass('active2').addClass('oldActive');
-	if ($('.oldActive').is(':first-child'))
-	{
-		$('.project2slide').last().addClass('active2');
-	}
-	else
-	{
-		$('.oldActive').prev().addClass('active2');
 	}
 	$('.oldActive').removeClass('oldActive');
 	$('.project2slide').fadeOut();
