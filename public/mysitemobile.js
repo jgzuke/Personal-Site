@@ -17,7 +17,7 @@ $('#nextpage').click(function()
 			scrollTop: $('#profileWithHeader').offset().top
 		}, 'slow');
 	}
-	else if ($(window).scrollTop() < $("#projectsWithHeader").offset().top-1)
+	else if ($(window).scrollTop() < $("#projectsWithHeader").offset().top)
 	{
 		$('html, body').animate(
 		{
