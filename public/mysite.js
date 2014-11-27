@@ -64,6 +64,8 @@ $(document).ready(function()
 	$('.project2slide').first().addClass('active2');
 	$('.project2slide').hide();
 	$('.active2').show();
+	$('#project1describe').hide();
+	$('#project2describe').hide();
 });
 $('#button-next1').click(function()
 {
@@ -92,4 +94,18 @@ $('#button-next2').click(function()
 	$('.oldActive').removeClass('oldActive');
 	$('.project2slide').fadeOut();
 	$('.active2').fadeIn();
+});
+$('#project1').mouseenter(function()
+{
+    $('#project1describe').fadeIn();
+}).mouseleave(function()
+{
+    $('#project1describe').fadeOut();
+});
+$('#project2').mouseenter(function()
+{
+    $('#project2describe').fadeIn();
+}).mouseleave(function()
+{
+    $('#project2describe').fadeOut();
 });

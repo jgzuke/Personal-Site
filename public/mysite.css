@@ -77,7 +77,9 @@ a.toplinks {
  font-size: 175%;
  color: #FFFFFF;
 }
-
+#profileWithHeader, #projectsWithHeader {
+	height:100vh;
+}
 
 #profile {
   width: 85%;
@@ -85,12 +87,16 @@ a.toplinks {
 }
 #projects {
 	width: 85%;
-	height:100vh;
 }
 
 #button-next1, #button-next2 {
 	position:absolute;
-	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.5);
+	back
+}
+#project1describe, #project2describe {
+	width:93%;
+	position:absolute;
 }
 img.project1slide, img.project2slide {
 	width:93%;
@@ -116,8 +122,8 @@ h3.paragraphheaders {
  color: #294F6D;
 }
 #myimage {
- width:250px;
- height:250px;
+ width:90%;
+ height:90%;
  margin-top:60px;
 }
 p.paragraphs {
