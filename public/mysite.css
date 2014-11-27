@@ -92,6 +92,26 @@ a.toplinks {
 }
 #projects {
 	height:100vh;
+	width: 100%;
+}
+#project1Slider {
+	margin-left:10%;
+	width:35%;
+	height:40vh;
+}
+img.project1slide {
+	width:100%;
+
+}
+#project2Slider {
+	margin-left:10%;
+	margin-right:10%;
+	width:35%;
+	height:40vh;
+}
+img.project2slide {
+	width:100%;
+
 }
 
 
